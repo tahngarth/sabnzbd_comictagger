@@ -10,6 +10,6 @@ RUN git clone https://github.com/davide-romanini/comictagger.git /opt/comictagge
 RUN pip3 install -r /opt/comictagger/requirements.txt
 #RUN make -C /opt/comictagger/unrar lib
 #RUN make -C /opt/comictagger/unrar install-lib
-#RUN /opt/comictagger/comictagger.py --only-set-cv-key --cv-api-key=16f4d4d66e2b112ba0a3d26bb21d4aab9a259d19
+#RUN /opt/comictagger/comictagger.py --only-set-cv-key --cv-api-key=<key here>
 #RUN sed -i "s|use_series_start_as_volume = False|use_series_start_as_volume = True|g" /config/.ComicTagger/settings
 
