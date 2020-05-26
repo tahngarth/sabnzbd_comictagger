@@ -8,8 +8,4 @@ RUN apt-get install -y git python3 python3-pip g++
 RUN pip3 install --upgrade pip
 RUN git clone https://github.com/davide-romanini/comictagger.git /opt/comictagger
 RUN pip3 install -r /opt/comictagger/requirements.txt
-#RUN make -C /opt/comictagger/unrar lib
-#RUN make -C /opt/comictagger/unrar install-lib
-#RUN /opt/comictagger/comictagger.py --only-set-cv-key --cv-api-key=<key here>
-#RUN sed -i "s|use_series_start_as_volume = False|use_series_start_as_volume = True|g" /config/.ComicTagger/settings
 
