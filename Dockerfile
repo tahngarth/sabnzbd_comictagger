@@ -1,7 +1,7 @@
 # Dockerfile-sabtagger
 # Uses the linuxserver sabnzbd image and adds python3
 
-FROM linuxserver/sabnzbd:version-3.2.1
+FROM linuxserver/sabnzbd:version-3.3.0
 
 RUN apt-get update
 RUN apt-get install -y git python3 python3-pip g++
